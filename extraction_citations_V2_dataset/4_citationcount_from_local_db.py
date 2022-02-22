@@ -1,7 +1,5 @@
 import sqlite3
 import csv
-from urllib3.util.retry import Retry
-from requests.adapters import HTTPAdapter
 
 #### Takes previously produced metadata+citations database and creates a CSV file
 #### that has articles grouped by DOI, year and citation count.
